@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+*{
+    
+    font-family: 'Lora', serif;
+    user-select: none;
+    text-decoration: none;
+}
+
+
+
+#logo{
+    width: 100px;
+}
+
+nav{
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+
+
+.nav-link{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+
+.footer{
+    font-size: large;
+    bottom: 0%;
+    width: 100%;
+    
+    position: static;
+    margin-top: auto;
+}
+
+
+
+
+
+
+#footer_redirect:hover{
+    color: black;
+}
+
+footer{
+    font-weight: bolder;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+
+
+
+#shortest_info div img{
+    width: 70px;
+}
+
+#products_section h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+#products_section hr{
+    height: 3px;
+    color: darkgreen;
+    background-color: darkgreen;
+    margin-bottom: 50px;
+}
+
+#products_section hr:hover{
+    color: rgb(109, 20, 20);
+    background-color: black;
+}
+
+#products_section a{
+    text-decoration: none;
+    color: black;
+}
+
+.products{
+    background-color: whitesmoke;
+    transition: transform .3s;
+    
+}
+
+
+.products h1{
+    font-weight: bolder;
+    
+
+}
+
+.products:hover{
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+.contact-section h2{
+
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.contact-section main form div input{
+    
+    
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    
+}
+
+.contact-section main form div textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.contact-section main form div #btn{
+    width: fit-content;
+}
+
+.contact-section main #contactInfo{
+    font-size: x-large;    
+}
+
+
+.contact-section main form #hiddenErrorMsgName{
+    display: none;
+}
+.contact-section main form #hiddenErrorMsgEmail {
+    display: none;
+}
+
+.contact-section main form #form_Submission_Msg{
+    display: none;
+}
+
+section header div #inner_container{
+    
+    width: 125px;
+    height: 3.5px;
+}
+
+section header div{
+    display: flex;
+    justify-content: center;
+}
+
+section header{
+    margin-top: 20px;
+    background-image: url('../product_imgs/round-window-4272049.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+    border: 0px solid black;
+    border-bottom-left-radius: 150px ;
+    border-bottom-right-radius: 150px ;
+   
+}
+
+section header h1{
+    color: white;
+    font-size: 50px;
+    
+    
+}
+
+#aboutUsSection main h1{
+    font-size: 60px;
+    margin-top: 40px;
+    color: orangered;
+}
+
+#aboutUsSection main .aboutUsMainParagraph{
+    width: 950px;
+    text-align: center;
+
+}
+
+#aboutUsSection main .reviews b{
+    font-size: 80px;
+
+}
+
+#aboutUsSection main .reviews div h1{
+    margin-top: -20px;
+
+}
+
+#aboutUsSection main .reviews{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px black;
+}
+
+#aboutUsFact p{
+    font-size: large;
+}
+
+.map h1{
+    font-size: 50px;
+}
+
+.map h1:hover{
+    text-decoration: underline;
+}
+
+.products_chair main div img{
+    width: 100%;
+
+}
+
+.products_chair main .card{
+    transition: transform 0.5s;
+}
+
+.products_chair main .card:hover{
+    transform: scale(1.1);
+}
+
+
+.brand-selection div img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.brand-selection a{
+    text-decoration: none;
+}
+
+
+.btnTabs{
+    background: #212529;
+    color: white;
+    border-radius: 100px;
+    padding: 5px 21px 5px 15px;
+    letter-spacing: 1px;
+    box-shadow: 4px 2px 20px #dfdfdf;
+    
+    
+}
+.btnTabs img{
+    width: 38px !important;
+    height: 38px;
+    border-radius: 50px;
+}
+.Inactive{
+    background: #e1e1e1;
+    color: #767474;
+    border: 1px solid #e1e1e1;
+}

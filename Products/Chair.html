@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAIR</title>
+    <link rel="shortcut icon" href="../img/chair-2.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100 ">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../img/RICHFIELD.png" alt="LOGO" id="logo"></a>
+            <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="../html/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="../html/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Products/Chair.html">Chair</a></li>
+                            <li><a class="dropdown-item" href="../Products/Bed.html">Bed</a></li>
+                            <li><a class="dropdown-item" href="../Products/Table.html">Table</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="brand-selection ">
+        <div class="container-fluid mt-5 ">
+            <h1 class="text-center">Select Your Desired Brand</h1>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button type="button" id="button1" class="btnTabs btn-light Inactive"
+                        onclick="btn_Active_And_Inactive_Func('button1')">
+                        <img src="../brand_logos/ikea.avif" alt="IKEA"> <span>IKEA</span>
+                    </button>
+                    <button type="button" id="button2" class="btnTabs btn-light Inactive"
+                        onclick="btn_Active_And_Inactive_Func('button2')">
+                        <img src="../brand_logos/Ashley_Furniture_HomeStore_logo.png" alt="ASHLEY"> <span>ASHLEY</span>
+                    </button>
+                    <button type="button" id="button3" class="btnTabs btn-light Inactive"
+                        onclick="btn_Active_And_Inactive_Func('button3')">
+                        <img src="../brand_logos/restoration-hardware-logo.png" alt="RESTORATION HARDWARE (RH)">
+                        <span>RESTORATION HARDWARE (RH)</span>
+                    </button>
+                    <button type="button" id="button4" class="btnTabs btn-light Inactive"
+                        onclick="btn_Active_And_Inactive_Func('button4')">
+                        <img src="../brand_logos/kartell-logo-png-transparent.png" alt="KARTELL"> <span>KARTELL</span>
+                    </button>
+                    <button type="button" id="button5" class="btnTabs btn-light Inactive"
+                        onclick="btn_Active_And_Inactive_Func('button5')">
+                        <img src="../brand_logos/Williams-Sonoma_logo.webp" alt="WILLIAMS SONOMA"> <span>WILLIAMS
+                            SONOMA</span>
+                    </button>
+                    <button type="button" id="button6" class="btnTabs btn-light Inactive"
+                        onclick="btn_Active_And_Inactive_Func('button6')">
+                        <img src="../brand_logos/la-z-boy-furniture-logo.svg" alt="LA-Z-BOY"> <span>LA-Z-BOY</span>
+                    </button>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5" style="display: none;">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                    <a href="#"><img src="../brand_logos/ikea.avif" alt="IKEA">
+                        <p class="text-center text-dark fs-3">IKEA</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                    <a href="#"><img src="../brand_logos/Ashley_Furniture_HomeStore_logo.png" alt="ASHLEY">
+                        <p class="text-center text-dark fs-3">ASHLEY</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                    <a href="#"><img src="../brand_logos/restoration-hardware-logo.png" alt="RESTORATION HARDWARE">
+                        <p class="text-center text-dark fs-3">RESTORATION HARDWARE (RH)</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                    <a href="#"><img src="../brand_logos/kartell-logo-png-transparent.png" alt="KARTELL">
+                        <p class="text-center text-dark fs-3">KARTELL</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                    <a href="#"><img src="../brand_logos/Williams-Sonoma_logo.webp" alt="WILLIAMS SONOMA">
+                        <p class="text-center text-dark fs-3">WILLIAMS SONOMA</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 col-12">
+                    <a href="#"><img src="../brand_logos/la-z-boy-furniture-logo.svg" alt="LA-Z-BOY">
+                        <p class="text-center text-dark fs-3">LA-Z-BOY</p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <section class="products_chair">
+        <h1 class="text-center text-decoration-underline">CHAIRS</h1>
+        <main>
+            <div class="container-fluid row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-1 " id="ASHLEY1">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-1.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">SINGLE CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-1 " id="KARTELL1">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-2.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">WOODEN CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-1 " id="WILLIAMS_SONOMA1">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-3.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">DINING TABLE WITH COMFY CHAIRS</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " id="RESTORATION_HARDWARE_RH1">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-4.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">CONFERENCE TABLE, CHAIR SET</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " id="IKEA1">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-5.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">DECK CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 " id="IKEA2">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-6.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">COMFY SOFA LIKE CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5  " id="ASHLEY2">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-7.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">COZY CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5  " id="LA_Z_BOY1">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-8.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">KEVLAR CHAIR | PURE POLYESTER</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5  " id="KARTELL2">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-10.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">LUXURY CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 " id="RESTORATION_HARDWARE_RH2">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-12.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">CLASSIC BED ROOM CHAIR</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 " id="LA_Z_BOY2">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-14.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">GARDEN CHAIR AND TABLE SET</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 " id="IKEA3">
+                    <div class="card border-1 border-dark p-2 text-center">
+                        <img src="../product_imgs/Chair-15.jpg" class="card-img-top" alt="Chair">
+                        <div class="card-body">
+                            <h5 class="card-title">STRONG IRON CHAIR WITH TABLE</h5>
+
+                            <a href="../Details Of Products/Chair Details.pdf" download="" class="btn btn-dark">Check
+                                Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="footer">
+        <footer class="container-fluid  footer bg-dark bg-gradient mt-auto">
+            <div class="row justify-content-center text-light p-3">
+                <div class=" col-lg-8 col-md-8 col-sm-12 text-center">
+
+                    <li style="list-style: none;">COPYRIGHT &copy; ALL RIGHTS RESERVED &reg; AND Powered By <a
+                            style="text-decoration:none;" href="http://mesum.pythonanywhere.com/" target="_blank"
+                            rel="noopener noreferrer" class="text-light"><span id="footer_redirect">MESUM BIN
+                                SHAUKAT</span></a></li>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm d-flex flex-wrap text-center justify-content-center">
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="mailto:masumbinshaukat@gmail.com"> <img src="../img/gmail.png" width="30px"
+                                alt="GMAIL"></a>
+                    </li>
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="https://www.facebook.com/worldoftechofficial786" target="_blank"> <img
+                                src="../img/facebook.png" width="30px" alt="FACEBOOK PAGE"></a>
+                    </li>
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="https://www.youtube.com/channel/UCBGbPEHZSTTDhnK2YQkS2Uw" target="_blank"> <img
+                                src="../img/youtube.png" width="30px" alt="YOUTUBE CHANNEL"></a>
+                    </li>
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="https://github.com/mesumbinshaukat" target="_blank"> <img src="../img/github.png"
+                                width="30px" alt="GITHUB PROFILE"></a>
+                    </li>
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="https://www.linkedin.com/in/mesum-bin-shaukat/" target="_blank"> <img
+                                src="../img/linkedin.png" width="30px" alt="LINKED IN"></a>
+                    </li>
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="https://twitter.com/MesumBinShaukat" target="_blank"> <img src="../img/twitter.png"
+                                width="30px" alt="TWITTER"></a>
+                    </li>
+                    <li style="list-style: none; margin-right:10px; margin-left:10px;"><a
+                            href="https://discord.com/invite/JqEjB34YnY" target="_blank"> <img src="../img/discord.png"
+                                width="35px" alt="DISCORD"></a>
+                    </li>
+                </div>
+
+
+
+            </div>
+        </footer>
+    </section>
+
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="../jquery/jquery-3.6.1.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
